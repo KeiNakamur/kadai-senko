@@ -94,9 +94,9 @@ const Menu = () => {
         <>
             <div className='menu'>
                 {/* 下のmap関数の部分を一度コメントアウト、そしてコメントアウト解除しないとうまくlocalhost上で動作が確認できない(原因調査中) } */}
-                {/* {restaurantData.shop.map((data) => (
+                {restaurantData.shop.map((data) => (
                     <MenuList data={data} key={data.id} />
-                ))} */}
+                ))}
             </div>
 
             <div className="buttons">

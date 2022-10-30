@@ -17,7 +17,7 @@ mongoose
   });
 
 //ミドルウェアの設定
-app.use(express.json()); //ユーザー情報をjson形式で扱うためexpress.json()と指定
+app.use(express.json());
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 
